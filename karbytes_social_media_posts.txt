@@ -1,7 +1,7 @@
 /**
  * file: karbytes_social_media_posts.txt
  * type: plain-text
- * date: 15_MAY_2024
+ * date: 17_MAY_2024
  * author: karbytes
  * license: PUBLIC_DOMAIN
  */
@@ -111,3 +111,13 @@ https://karbytesforlifeblog.wordpress.com/proposed_principles_of_global_governan
 On 15_MAY_2024 at approximately 12:30AM Pacific Standard Time, karbytes shared the following news article as a social media post on karbytes' Twitter dot Com page and on karbytes' Minds dot Com page:
 
 https://www.scientificamerican.com/custom-media/biggest-questions-in-science/the-founder-of-cosmic-inflation-theory-on-cosmologys-next-big-ideas/
+
+* * *
+
+On 17_MAY_2024 at approximately 9:30PM Pacific Standard Time, karbytes shared the following video as a social media post on karbytes' Twitter dot Com page and on karbytes' Minds dot Com page:
+
+video_title: "Paul Rosolie: Jungle, Apex Predators, Aliens, Uncontacted Tribes, and God | Lex Fridman Podcast #429"
+
+video_date: 15_MAY_2024
+
+video_link: https://www.youtube.com/watch?v=pwN8u6HFH8U
