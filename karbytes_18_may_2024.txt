@@ -1,0 +1,77 @@
+/** 
+  * file: karbytes_18_may_2024.txt
+  * type: plain-text 
+  * date: 18_MAY_2024 
+  * author: karbytes 
+  * license: PUBLIC_DOMAIN 
+  */
+
+The following text was copy-pasted from a conversation which karbytes had with ChatGPT-4o (which is newer version of ChatGPT than is ChatGPT-4) on 15_MAY_2024 at approximately 11:00PM Pacific Standard Time.
+
+(Note that the user handle, karbytes, was manually inserted into the text displayed on this web page after that text was copy-pasted from the original ChatGPT conversation as that conversation was originally displayed in the ChatGPT web page interface. Also, Uniform Resource Locators to images which karbytes submitted to ChatGPT to analyze and which ChatGPT generated and karbytes downloaded have been manually inserted into the text on this web page).
+
+* * *
+
+karbytes
+
+Describe the following uploaded image: 
+
+https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_8/main/karbytes_in_public_storage_unit_21feb2024.jpg
+
+ChatGPT
+
+The uploaded image depicts a person sitting inside a small, empty storage unit or room. The person is sitting on the floor, against the wall, and appears to be making a peace sign with one hand. They have long, dark hair and are dressed in dark clothing. There is a backpack or bag beside them on the right. The perspective of the photo is low to the ground, making the room appear larger and giving a unique angle to the shot. The walls of the room are plain and the floor looks like it has some scuff marks.
+
+karbytes
+
+Describe the following uploaded image: 
+
+https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_9/main/spencer_dyer_in_tahoe_california_13_january_2011_part_0.jpg
+
+ChatGPT
+
+The uploaded image shows a person with long, light brown hair and glasses sitting at a wooden table. The person is wearing a gray t-shirt and is focused on using a tablet or electronic device in front of them. On the table, there are a pair of headphones, two white mugs with tea bags, a glass, and a pencil with earphones wrapped around it. In the background, there is a stone fireplace with a brass frame, a TV, and wooden furniture. The room has a cozy, rustic feel with exposed wooden beams on the ceiling and soft lighting.
+
+karbytes
+
+Describe the following uploaded image: 
+
+https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_9/main/spencer_dyer_in_tahoe_california_13_january_2011_part_2.jpg
+
+ChatGPT
+
+The uploaded image shows a person playing pool. They are bent over the pool table, aiming a shot with a cue stick. The person has long, light brown hair tied back and is wearing glasses and a gray t-shirt. Their expression is focused as they line up the shot. On the table, there are a few pool balls, including the yellow cue ball and an orange striped ball. In the foreground, the black 8-ball is prominently visible. The background features a beige wall with a window covered by blinds, a dark brown couch, and some other furniture. The lighting in the room is bright, giving a clear view of the scene.
+
+karbytes
+
+Describe the following uploaded image:
+
+https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_9/main/karlina_beringer_in_tahoe_california_13_january_2011_part_1.jpg
+
+ChatGPT
+
+The uploaded image shows a person playing pool in a room with a casual setting. The person has long, dark hair and is wearing a black t-shirt and shorts with a yellow stripe. They are holding a pool cue, preparing to take a shot. On the pool table, the cue ball and several other balls are visible, including the black 8-ball and the orange striped 13-ball, which is prominently in the foreground.
+
+In the background, there is a wall-mounted TV, a kitchenette with a sink, and a door. A colorful license plate art piece hangs on the wall. The room appears to be a recreational area, likely in a basement or similar space, with typical furnishings and fixtures.
+
+karbytes
+
+Describe the following uploaded image:
+
+https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_9/main/spencer_dyer_and_karlina_beringer_in_tahoe_california_13_january_2011_part_2.jpg
+
+ChatGPT
+
+The uploaded image shows two people playing pool. Both individuals are standing near the pool table, each holding a cue stick. The person on the left has long, dark hair and is wearing a black t-shirt with a graphic design. The person on the right has long, light brown hair and is wearing a gray t-shirt.
+
+On the pool table, several balls are visible, including the cue ball and the orange striped 13-ball, which is prominently in the foreground. The background features wooden doors and beige walls, suggesting the room is a basement or recreational area. The lighting is bright, giving a clear view of the entire scene. The action captured in the image shows a moment during the game, with a slight motion blur indicating a shot is being taken.
+
+karbytes
+
+Generate an image of bright green, bright purple, and bright blue swirling and scintillating liquid in a clear coffee mug on a table on a stone table in a garden full of multi colored flowers in mid morning. 
+
+ChatGPT
+
+https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_extension_pack_14/main/dalle_image_generated_by_chatgpt4o_14may2024.png
+
+Here is the image of the clear coffee mug filled with swirling and scintillating liquid in bright green, bright purple, and bright blue colors, placed on a stone table in a garden full of multi-colored flowers in mid-morning light.
