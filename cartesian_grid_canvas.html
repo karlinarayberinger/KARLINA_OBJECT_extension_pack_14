@@ -1,0 +1,87 @@
+<!--
+/**
+ * file: cartesian_grid_canvas.html
+ * type: Hyper-Text-Markup-Language
+ * author: karbytes
+ * date: 20_MAY_2024
+ * license: PUBLIC_DOMAIN
+ */
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cartesian Grid Canvas</title>
+</head>
+<body>
+  <script>
+    function generateCartesianGridCanvas() {
+      const canvas = document.createElement('canvas');
+      canvas.width = 420;
+      canvas.height = 420;
+      canvas.style.backgroundColor = 'white';
+      const ctx = canvas.getContext('2d');
+
+      // Draw grid lines and labels
+      ctx.strokeStyle = 'lightblue';
+      ctx.font = '10px Arial';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+
+      const gridSize = 20;
+      const margin = 10;
+      const halfCanvasWidth = (canvas.width - 2 * margin) / 2 + margin;
+      const halfCanvasHeight = (canvas.height - 2 * margin) / 2 + margin;
+      const maxLabelValue = 10;
+
+      // Draw vertical grid lines and labels
+      for (let x = margin; x <= canvas.width - margin; x += gridSize) {
+        ctx.beginPath();
+        ctx.moveTo(x, margin);
+        ctx.lineTo(x, canvas.height - margin);
+        ctx.stroke();
+
+        const label = ((x - margin) / gridSize) - maxLabelValue;
+        ctx.fillText(label.toString(), x, halfCanvasHeight + 10);
+      }
+
+      // Draw horizontal grid lines and labels
+      for (let y = margin; y <= canvas.height - margin; y += gridSize) {
+        ctx.beginPath();
+        ctx.moveTo(margin, y);
+        ctx.lineTo(canvas.width - margin, y);
+        ctx.stroke();
+
+        const label = maxLabelValue - ((y - margin) / gridSize);
+        ctx.fillText(label.toString(), halfCanvasWidth + 10, y);
+      }
+
+      // Draw x-axis
+      ctx.strokeStyle = 'black';
+      ctx.beginPath();
+      ctx.moveTo(margin, halfCanvasHeight);
+      ctx.lineTo(canvas.width - margin, halfCanvasHeight);
+      ctx.stroke();
+
+      // Draw y-axis
+      ctx.beginPath();
+      ctx.moveTo(halfCanvasWidth, margin);
+      ctx.lineTo(halfCanvasWidth, canvas.height - margin);
+      ctx.stroke();
+
+      // Label x-axis
+      ctx.fillText('x', canvas.width - margin - 10, halfCanvasHeight - 10);
+
+      // Label y-axis
+      ctx.fillText('y', halfCanvasWidth + 10, margin + 10);
+
+      // Append canvas to body
+      document.body.appendChild(canvas);
+    }
+
+    // Generate the Cartesian grid canvas on page load
+    window.onload = generateCartesianGridCanvas;
+  </script>
+</body>
+</html>
