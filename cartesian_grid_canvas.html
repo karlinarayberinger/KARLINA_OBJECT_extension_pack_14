@@ -21,21 +21,21 @@
      * (where each grid line represents an integer value from the set [-10,10]).
      * 
      * Generate a white HTML5 canvas element which is 420 pixels in width and 420 pixels in height and which has centered within it
-     * a grid which is 400 pixels in width and 400 pixels in height and such that the grid lines are colored light blue and such that
-     * the x-axis and the y-axis are labeled with respective black letters and such that each of the grid lines is labeled with 
-     * black integer values from the set [-10,10] and such that each grid lines is spaced 20 pixels apart.
+     * a grid which is 400 pixels in width and 400 pixels in height and where each grid line is colored light blue, spaced 20 pixels
+     * apart from adjacent grid lines, and labeled with a black integer value (from the set of integers [-10,10]) near the grid axes
+     * (and the x-axis and the y-axis are colored black and labeled with respective black letters).
      * 
      * @return {String} the HTML code to generate the aforementioned canvas element.
      */
     function generateCartesianGridCanvas() {
-      // Create the HTML5 canvas.
+      // Create the HTML5 canvas and canvas drawing context.
       const canvas = document.createElement('canvas');
       canvas.width = 420;
       canvas.height = 420;
       canvas.style.backgroundColor = 'white';
       const ctx = canvas.getContext('2d');
-
-      // Draw grid lines and labels.
+      
+      // Set the context to draw grid lines and labels.
       ctx.strokeStyle = 'lightblue';
       ctx.font = '10px Arial';
       ctx.textAlign = 'center';
@@ -47,7 +47,7 @@
       const halfCanvasHeight = (canvas.height - 2 * margin) / 2 + margin;
       const maxLabelValue = 10;
 
-      // Draw vertical grid lines and labels.
+      // Draw vertical grid lines and each of their integer labels.
       for (let x = margin; x <= canvas.width - margin; x += gridSize) {
         ctx.beginPath();
         ctx.moveTo(x, margin);
@@ -58,7 +58,7 @@
         ctx.fillText(label.toString(), x, halfCanvasHeight + 10);
       }
 
-      // Draw horizontal grid lines and labels.
+      // Draw horizontal grid lines and each of their respective integer labels.
       for (let y = margin; y <= canvas.height - margin; y += gridSize) {
         ctx.beginPath();
         ctx.moveTo(margin, y);
@@ -69,30 +69,30 @@
         ctx.fillText(label.toString(), halfCanvasWidth + 10, y);
       }
 
-      // Draw x-axis.
+      // Draw the x-axis.
       ctx.strokeStyle = 'black';
       ctx.beginPath();
       ctx.moveTo(margin, halfCanvasHeight);
       ctx.lineTo(canvas.width - margin, halfCanvasHeight);
       ctx.stroke();
 
-      // Draw y-axis.
+      // Draw the y-axis.
       ctx.beginPath();
       ctx.moveTo(halfCanvasWidth, margin);
       ctx.lineTo(halfCanvasWidth, canvas.height - margin);
       ctx.stroke();
 
-      // Label x-axis.
+      // Label the x-axis.
       ctx.fillText('x', canvas.width - margin - 10, halfCanvasHeight - 10);
 
-      // Label y-axis.
+      // Label the y-axis.
       ctx.fillText('y', halfCanvasWidth + 10, margin + 10);
 
-      // Append canvas to web page body.
+      // Append the canvas to the web page body.
       document.body.appendChild(canvas);
     }
 
-    // Generate the Cartesian grid canvas on page load.
+    // Generate the Cartesian grid canvas when the web page is loaded by the web browser.
     window.onload = generateCartesianGridCanvas;
   </script>
 </body>
